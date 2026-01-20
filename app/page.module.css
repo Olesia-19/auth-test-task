@@ -1,0 +1,68 @@
+.wrapper {
+  padding: 24px;
+  max-width: 420px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tabBtn {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.activeTab {
+  font-weight: 700;
+  border-color: #000;
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+}
+
+.label {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.hint {
+  font-size: 12px;
+  color: #666;
+}
+
+.error {
+  color: crimson;
+  margin: 0;
+  font-size: 14px;
+}
+
+.submitBtn {
+  padding: 10px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

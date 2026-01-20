@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 24px;
+  max-width: 520px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.logoutBtn {
+  padding: 10px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logoutBtn:disabled {
+  opacity: 0.6;
+}
